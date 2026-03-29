@@ -6,3 +6,28 @@ Fast Forward
 49f337b (HEAD -> master, origin/feature-search-books, feature-search-books) Implement book search
 * ba13517 (origin/master) Add starter code
 * ecb2c3c Initial commit
+
+
+22.
+A conflict did occur in SI2026Lab1Main.java when merging feature-borrow-book into master because the same line of code was modified in both branches.
+I resolved it by manually editing the file, removing the Git markers (<<<<, ====, >>>>), and choosing the "Borrowed successfully" message.
+This merge was a Recursive Merge.
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .idea/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+23.
+Recursive merge
+Even though there were no conflicts in the code for this specific branch, the master branch and feature-genre-report had diverged. Since master already had new commits it was impossible to do a simple "Fast-forward.
+
+24.
+Recursive merge
+This was not Fast-forward because the master branch and the feature-borrow-book branch had diverged. I had made a commit directly on master
+
+
+
