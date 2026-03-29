@@ -62,12 +62,7 @@ class Library {
             if (book.getTitle().equalsIgnoreCase(title)) {
                 if (!book.isBorrowed()) {
                     book.setBorrowed(true);
-
-                    System.out.println("Book checked out");
-
-                    // The requirement specifically asks for this message:
-                    System.out.println("Borrowed successfully.");
-
+                    System.out.println("Book borrowed.");
                 } else {
                     System.out.println("Book is already borrowed.");
                 }
@@ -139,7 +134,5 @@ public class SI2026Lab1Main {
 
         boolean notFound = library.searchBookByTitle("Harry Potter");
         System.out.println("Is 'Harry Potter' in the library? " + notFound);
-
-        library.borrowBook("Clean Code");
     }
 }
