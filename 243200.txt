@@ -1,0 +1,8 @@
+git checkout master  
+git merge feature-search-books
+
+Fast Forward
+
+49f337b (HEAD -> master, origin/feature-search-books, feature-search-books) Implement book search
+* ba13517 (origin/master) Add starter code
+* ecb2c3c Initial commit
